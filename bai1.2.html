@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAI1.2-FORM</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+     <div style="background-color: yellow; padding: 10px; line-height: 30px;">
+        <!-- title -->
+        <h2 style="background-color: lightgreen; padding-left: 10px; color: blue;">ĐĂNG KÝ HỌC VIÊN</h2>
+        <!-- form -->
+        <div>
+            <form action="">
+                <label for="">Họ và tên</label>
+                <input type="text" style="margin-left: 30px;">
+                <br>
+                <label for="">Ngày sinh</label>
+                <input type="date" style="margin-left: 27px;">
+                <br>
+                <label for="">Giới tính</label>
+                <input type="radio" name="gender" value="Nam" style="margin-left: 40px;">
+                <label for="">Nam</label>
+                <input type="radio" name="gender" value="Nữ">
+                <label for="">Nữ</label>
+                <br>
+
+                <div>
+                    <label style="display: block; margin-bottom: 1px;" for="">Địa chỉ</label>
+                    <textarea style="margin-left: 100px;" name="" id="" rows="5"></textarea>
+                </div>
+                <br>
+                <label for="">Lớp</label>
+                <select style="margin-left: 70px;" name="" id="">
+                    <option value="viewport">Chọn lớp</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+                <br>
+                <label for="">Email</label>
+                <input style="margin-left: 58px;" type="email">
+                <br>
+                <label for="">Điện thoại</label>
+                <input style="margin-left: 30px;" type="text">
+                <!-- button -->
+                <div>
+                    <button style="margin-left: 100px;" type="submit">Đăng ký</button>
+                    <button type="submit">Nhập lại</button>
+                </div>
+            </form>
+        </div>
+     </div>
+</body>
+</html>
